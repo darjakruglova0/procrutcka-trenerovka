@@ -1,0 +1,23 @@
+﻿#slider {
+	width:180px;
+	height:57px;
+	margin:50px auto;
+	border:5px solid black;
+	overflow:hidden;
+}
+#polosa {
+	
+	width: 180px;
+	position:relative;
+	left:0;
+	transicion:all ease 
+}
+#polosa img {
+	float:left;
+	
+}
+	#polosa::after {
+		content:"";
+		display:block;
+		clear:both;
+	}
